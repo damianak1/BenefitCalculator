@@ -1,21 +1,13 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Newtonsoft.Json.Serialization;
-using Microsoft.Extensions.FileProviders;
-using System.IO;
-using Tutorial.Services.Interfaces;
-using Tutorial.Services;
+using BenefitCalculator.Services.Interfaces;
+using BenefitCalculator.Services;
 
-namespace Tutorial
+namespace BenefitCalculator
 {
     public class Startup
     {
@@ -31,7 +23,6 @@ namespace Tutorial
         {
             services.AddCors(c =>
             {
-                // This would not be suitable for production code
                 c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
             });
 
@@ -50,6 +41,7 @@ namespace Tutorial
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             app.UseCors(options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+            
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

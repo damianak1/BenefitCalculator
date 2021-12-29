@@ -1,7 +1,7 @@
 ﻿
-using Tutorial.Models;
+using BenefitCalculator.Models;
 
-namespace Tutorial.Services.Interfaces
+namespace BenefitCalculator.Services.Interfaces
 {
     public interface IBenefitCalculatorService
     {

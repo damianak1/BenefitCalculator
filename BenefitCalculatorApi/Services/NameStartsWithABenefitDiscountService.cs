@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Tutorial.Models;
-using Tutorial.Services.Interfaces;
+﻿using BenefitCalculator.Models;
+using BenefitCalculator.Services.Interfaces;
 
-namespace Tutorial.Services
+namespace BenefitCalculator.Services
 {
     public class NameStartsWithABenefitDiscountService : IBenefitDiscountService
     {

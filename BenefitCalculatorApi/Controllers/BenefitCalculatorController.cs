@@ -1,13 +1,8 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Tutorial.Models;
-using Tutorial.Services.Interfaces;
+﻿using Microsoft.AspNetCore.Mvc;
+using BenefitCalculator.Models;
+using BenefitCalculator.Services.Interfaces;
 
-namespace Tutorial.Controllers
+namespace BenefitCalculator.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

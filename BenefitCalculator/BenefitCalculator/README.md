@@ -1,5 +1,7 @@
 # BenefitCalculator
-open cmd from BenefitCalculator
+open cmd from BenefitCalculatorUI
+
 cd BenefitCalculator
+
 nmp install
 
