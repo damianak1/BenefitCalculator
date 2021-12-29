@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BenefitCalculatorApi", "BenefitCalculatorApi\BenefitCalculatorApi.csproj", "{497CB597-5FA1-4F1A-BD88-13342D15841A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BenefitCalculatorTests", "BenefitCalculatorTests\BenefitCalculatorTests.csproj", "{6EDBCBC4-D4F7-4029-96DA-764B06751156}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "BenefitCalculatorUI", "BenefitCalculator\BenefitCalculator\BenefitCalculatorUI.njsproj", "{FB91B6CC-F580-4C77-92DB-20407FA6FD27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{497CB597-5FA1-4F1A-BD88-13342D15841A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{497CB597-5FA1-4F1A-BD88-13342D15841A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{497CB597-5FA1-4F1A-BD88-13342D15841A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{497CB597-5FA1-4F1A-BD88-13342D15841A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EDBCBC4-D4F7-4029-96DA-764B06751156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EDBCBC4-D4F7-4029-96DA-764B06751156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EDBCBC4-D4F7-4029-96DA-764B06751156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EDBCBC4-D4F7-4029-96DA-764B06751156}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB91B6CC-F580-4C77-92DB-20407FA6FD27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB91B6CC-F580-4C77-92DB-20407FA6FD27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB91B6CC-F580-4C77-92DB-20407FA6FD27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB91B6CC-F580-4C77-92DB-20407FA6FD27}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {933B79F1-99BD-4C57-81F3-EC8DA879F2AF}
+	EndGlobalSection
+EndGlobal
